@@ -1,0 +1,5 @@
+/*
+Nouvelles compétences:
+- forEach
+- querySelectorAll
+*/
