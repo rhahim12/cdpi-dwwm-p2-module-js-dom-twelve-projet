@@ -14,8 +14,9 @@ console.log(banniere)
 // 3. J'ecoute l'evenement "click" sur le bouton "Accepter les cookies"
 function test(){
     console.log("vrai")
-    // On ajoute la classe font-6
-banniere.classList.add(style = "opacity: 0");
+   
+
+banniere.style = "opacity: 0";
     // btn_Accept.classList.toggle("test");
     // console.log(btn_Accept.getAttribute("classe"));
     
