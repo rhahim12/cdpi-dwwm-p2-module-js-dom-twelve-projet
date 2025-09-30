@@ -39,17 +39,27 @@ iframe{
 .btn-sub{
     border:none;
     padding: 1rem;
-    color: black;
-    background-color: rgb(231, 231, 231);
+    color: rgb(3, 3, 3);
+    background-color: rgb(239, 245, 239);
     width:20ch;
     transition:width 0.1s;
+    
 }
 .abonne{
     
     width:15ch;
     background-color: rgb(139, 30, 30);
-    color:white;
+    color:rgb(255, 255, 255);
 }
+.is-visble{
+    
+    color: blue;
+}
+.is-visble1{
+    color: chartreuse;
+    background-color: aqua;
+}
+
 /***********************************************/
 
 /******************* Icone like ****************/
