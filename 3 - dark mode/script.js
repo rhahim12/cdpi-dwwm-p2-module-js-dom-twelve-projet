@@ -11,7 +11,7 @@ console.log(html)
 
 smiley.addEventListener('click', () => {
 
-    smiley.classList.toggle('fa-moon')
+    // smiley.classList.toggle('fa-moon')
     // smiley.classList.toggle('darkmode')
     // console.log("reussi")
 });
@@ -30,17 +30,13 @@ class_all_arr.forEach(class_obj => {
 
 
     div_elem.addEventListener('click', () => {
-        div_elem.classList.toggle("darkmode")
-        // html.classList.toggle("darkmode");
         class_obj.classList.toggle("darkmode")  
-        // smiley.classList.toggle("is-visible")
-        // class_all_arr[13].classList.toggle("fa-moon")
-        // console.log("test")
-
-
-
-
-
-
+        
     });
+})
+
+div_elem.addEventListener('click', () =>{
+    smiley.classList.toggle('fa-moon')
+    
+
 })
