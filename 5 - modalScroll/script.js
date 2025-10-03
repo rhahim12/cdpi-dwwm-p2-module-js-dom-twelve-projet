@@ -28,13 +28,14 @@ modalQuit.addEventListener("click",function(){
  
  *  Obligatoire pour pouvoir utiliser removeEventListener(function)
  */
-
+const timout = setTimeout(onScrollDisplayModal,5000);
 console.log(test)
 // => Number
+
 function onScrollDisplayModal(){
     // console.log("Ouiiii je scroollll");
     modal.style.display = "flex"
     test = document.documentElement.scrollTop;
     // test = balise.offsetTop        // position du border-top d'une balise
+    // setTimeout(onScrollDisplayModal, 10000);
 }
-
